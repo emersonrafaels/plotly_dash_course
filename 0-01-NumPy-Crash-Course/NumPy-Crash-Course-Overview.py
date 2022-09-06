@@ -3,47 +3,47 @@
 ############################
 import numpy as np
 
-my_list = [0,1,2,3,4]
+my_list = [0, 1, 2, 3, 4]
 
 arr = np.array(my_list)
 
 print(arr)
 
 
-# arange integers, takes in start,stop, and step size
+# arange integers, takes in start, stop, and step size
 
-a = np.arange(0,10)
+a = np.arange(0, 10)
 print(a)
 
-a= np.arange(0,10,2)
+a = np.arange(0, 10, 2)
 print(a)
 
 # Create an array of zeros
 
-a = np.zeros((5,5))
+a = np.zeros((5, 5))
 print(a)
 
-# Create an array of ones
+# Create an array of ones (nrows, ncols)
 
 a = np.ones((2,4))
 print(a)
 
 # Create an array of random integers (uniform distribution between limits)
 
-a = np.random.randint(0,10)
+a = np.random.randint(0, 10)
 print(a)
 
-# Create 2d matrix of random ints
+# Create 2d matrix of random ints (low, high, size)
 
-a = np.random.randint(0,10,(3,3))
+a = np.random.randint(0, 10, (3,3))
 print(a)
 
-# Create linearly spaced array
-a = np.linspace(0,10,6)
+# Create linearly spaced array (low, high, size)
+a = np.linspace(0, 10, 6)
 print(a)
 
 
-a = np.linspace(0,10,101)
+a = np.linspace(0, 10, 101)
 print(a)
 
 ################################
@@ -83,7 +83,7 @@ print(arr.reshape(2,5))
 
 # You can use .reshape() to change the shape of a 1d array to a 2d,3d, etc.. array
 # Keep in mind, we will mainly be working with 2d tabular data.  
-mat = np.arange(0,100).reshape(10,10)
+mat = np.arange(0, 100).reshape(10, 10)
 print(mat)
 
 row = 0
