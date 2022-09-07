@@ -26,7 +26,7 @@ data = [
 
 # define the layout, and include a title and axis labels
 layout = go.Layout(
-    title="Random Data Scatterplot",  # Graph title
+    title="Random data Scatterplot",  # Graph title
     xaxis=dict(title="Normal distribution"),  # x-axis label
     yaxis=dict(title="Uniform distribution"),  # y-axis label
     hovermode="closest",  # handles multiple points landing on the same vertical

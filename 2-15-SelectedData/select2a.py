@@ -1,7 +1,7 @@
 #######
 # Here we'll make a scatter plot with fake data that is
 # intentionally denser on the left, with overlapping data points.
-# We'll use Selection Data to uncover the difference.
+# We'll use Selection data to uncover the difference.
 ######
 import dash
 import dash_core_components as dcc

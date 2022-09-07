@@ -28,7 +28,7 @@ app.layout = html.Div(
                     "plot_bgcolor": colors["background"],
                     "paper_bgcolor": colors["background"],
                     "font": {"color": colors["text"]},
-                    "title": "Dash Data Visualization",
+                    "title": "Dash data Visualization",
                 },
             },
         ),
